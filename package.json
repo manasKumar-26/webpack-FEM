@@ -1,0 +1,39 @@
+{
+  "name": "webpack-FEM",
+  "version": "1.0.0",
+  "description": "Webpack Fundamentals",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "yarn run webpack serve  --mode=development --open --hot ",
+    "dist": "yarn run webpack  --mode=production",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
+    "debug-this": "node --inspect --inspect-brk ./src/index.js",
+    "lint": "eslint"
+  },
+  "main": "index.js",
+  "author": "Manas",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.48.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "compression-webpack-plugin": "^8.0.1",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}

@@ -1,0 +1,9 @@
+.buttonBackground {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
